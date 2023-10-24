@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "name",
+    "description": "name",
+    "uuid": "",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 20, 30]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "",
+      "version": [0, 0, 1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "",
+      "version": [0, 0, 1]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0-beta"
+    }
+  ]
+}
